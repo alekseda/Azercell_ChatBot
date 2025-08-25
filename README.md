@@ -1,24 +1,24 @@
 # Homework 3 — Building and Deploying a RAG-based AI Chatbot
 
-.
 ├── backend/
-│   ├── .env                 # Example environment variables 
-│   ├── requirements.txt     # Backend dependencies
-│   ├── app.py               # Backend code
-│   ├── Dockerfile           # Backend Dockerfile
-│   ├── pyproject.toml       # Build config
-│   └── requirements.txt     # List dependencies
+│ ├── .env # Пример переменных окружения
+│ ├── requirements.txt # Зависимости для backend
+│ ├── app.py # Основной backend-код
+│ ├── Dockerfile # Dockerfile для backend
+│ ├── pyproject.toml # Конфигурация сборки
+│ └── requirements.txt # Список зависимостей
 ├── frontend/
-│   ├── .env                 # Example environment variables
-│   ├── app.py               # Streamlit application
-│   ├── Dockerfile           # Frontend Dockerfile
-│   ├── pyproject.toml       # Build config
-│   └── requirements.txt     # List dependencies
+│ ├── .env # Пример переменных окружения
+│ ├── app.py # Streamlit-приложение
+│ ├── Dockerfile # Dockerfile для frontend
+│ ├── pyproject.toml # Конфигурация сборки
+│ └── requirements.txt # Список зависимостей
 ├── assets/
-│   └── screenshots/         # Screenshots of frontend and backend
+│ └── screenshots/ # Скриншоты frontend и backend
 ├── .github/
-│   └── workflows/
-│       └── ci-build.yaml    # GitHub Actions workflow
-├── docker-compose.yml       # Docker Compose configuration
-├── README.md                # Project description
-└── .gitignore               # Git ignore file
+│ └── workflows/
+│ └── ci-build.yaml # GitHub Actions workflow
+├── docker-compose.yml # Конфигурация Docker Compose
+├── README.md # Описание проекта
+└── .gitignore # Игнорируемые файлы Git
+
