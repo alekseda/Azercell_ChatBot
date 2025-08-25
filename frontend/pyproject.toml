@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Example of Streamlit frontend for DataMinds bootcamp"
 readme = "README.md"
 requires-python = ">= 3.12"
-authors = [{ name = "Elkhn", email = "elxana@azercell.com" }]
+authors = [{ name = "alekseda", email = "sedaelekberova17@gmail.com" }]
 dependencies = [
     "streamlit>=1.39.0",
     "requests>=2.32.3",

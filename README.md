@@ -1,0 +1,3 @@
+Homework 3 — Building and Deploying a RAG-based AI Chatbot
+
+This project builds on the Homework 1 AWS Bedrock chatbot by separating it into a FastAPI backend and a Streamlit frontend. Both parts are containerized with Docker, managed through Docker Compose, and deployed to an AWS EC2 instance via a CI/CD pipeline using a self-hosted GitHub Actions runner. The backend integrates AWS Bedrock’s Claude 3.5 Sonnet model for natural language inference, while the frontend delivers an interactive web interface for user queries and response visualizations.

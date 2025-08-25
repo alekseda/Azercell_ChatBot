@@ -311,10 +311,7 @@ def root() -> Dict[str, Any]:
         "message": "AI Chatbot API with AWS Bedrock Knowledge Base",
         "version": "2.1.0",
         "docs": "/docs",
-        "features": [
-            "Retry logic",
-            "Session management"
-            ],
+        "features": ["Retry logic", "Session management"],
     }
 
 
@@ -384,5 +381,3 @@ def clear_all_sessions() -> Dict[str, Any]:
         "success": True,
         "message": f"All {session_count} sessions cleared successfully",
     }
-
-
