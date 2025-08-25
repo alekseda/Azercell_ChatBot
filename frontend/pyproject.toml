@@ -1,0 +1,25 @@
+[project]
+name = "MLOps_frontend_service"
+version = "0.1.0"
+description = "Example of Streamlit frontend for DataMinds bootcamp"
+readme = "README.md"
+requires-python = ">= 3.12"
+authors = [{ name = "Elkhn", email = "elxana@azercell.com" }]
+dependencies = [
+    "streamlit>=1.39.0",
+    "requests>=2.32.3",
+    "python-dotenv>=1.0.1",
+]
+
+# [tool.ruff]
+# lint.extend-select = ["ALL"]
+
+[tool.ruff.lint]
+ignore = ["E402"]
+
+[tool.black]
+line-length = 100
+
+[tool.isort]
+profile = "black" # keeps isort compatible with Black
+line_length = 100

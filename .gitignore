@@ -1,0 +1,48 @@
+.env
+backend/.env
+frontend/.env
+*.env
+*.env.local
+*.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Docker
+.dockerignore
+
+# AWS
+.aws/
+*.pem
+
+# Database
+*.db
+*.sqlite3
+
+# Temporary files
+tmp/
+temp/
